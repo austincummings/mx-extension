@@ -1,0 +1,15 @@
+id = "mx"
+name = "MX"
+version = "0.0.1"
+schema_version = 1
+authors = ["Austin Cummings <austin@austincummings.com>"]
+description = "Support for the MX programming language"
+repository = "https://github.com/austincummings/mx-extension"
+
+[grammars.mx]
+repository = "https://github.com/austincummings/tree-sitter-mx"
+rev = "main"
+
+[language_servers.mx]
+name = "MX LSP"
+languages = ["MX"]

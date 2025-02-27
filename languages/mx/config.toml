@@ -1,0 +1,4 @@
+name = "MX"
+grammar = "mx"
+path_suffixes = ["mx"]
+line_comments = ["// "]
