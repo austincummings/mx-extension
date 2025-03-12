@@ -3,7 +3,7 @@ name = "MX"
 version = "0.0.1"
 schema_version = 1
 authors = ["Austin Cummings <austin@austincummings.com>"]
-description = "Support for the MX programming language"
+description = "MX support."
 repository = "https://github.com/austincummings/mx-extension"
 
 [grammars.mx]

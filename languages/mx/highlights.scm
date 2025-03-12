@@ -14,9 +14,6 @@
 ; Call expressions
 (call_expr) @function.call
 
-; Match fn_decl name identifier to a function
-(fn_decl name: (identifier) @function)
-
 (binary_expr op: "or" @keyword)
 (binary_expr op: "and" @keyword)
 (unary_expr op: "not" @keyword)
@@ -61,13 +58,12 @@
  "const"
  "var"
  "struct"
+ "interface"
  "loop"
  "break"
  "continue"
  "map"
  "to"
- "comptime"
- "new"
 ] @keyword
 
 [
@@ -97,5 +93,3 @@
  "true"
  "false"
 ] @boolean
-
-(fn_decl name: (identifier) @function) @function
